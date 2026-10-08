@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/myStyle.css">
+    <style>
+        .logo img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .who {
+            text-align: left;
+            line-height: 30px;
+            margin-top: 5%;
+        }
+
+        .row0 {
+            padding-left: 10%;
+            padding-right: 10%;
+            box-shadow: 0px 4px 4px lightgray;
+        }
+
+        .who h3 {
+            color: darkred;
+        }
+
+        .button3 {
+            width: 50%;
+            height: 5%;
+            border-radius: 3px;
+            background-color: darkred;
+            color: white;
+            border: none;
+            padding: 4px;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        }
+
+        .button3:hover {
+            background-color: coral;
+        }
+
+        .des {
+            line-height: 30px;
+            padding-left: 3%;
+            padding-right: 3%;
+            margin-top: 2%;
+            box-shadow: 0px 4px 4px lightgray;
+        }
+
+        @media (max-width: 576px) {
+            .row00 {
+                text-align: center;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+
+            .who {
+                text-align: center;
+            }
+
+            .small {
+                margin-left: 35%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand h1 col-md-2" href="index.html">Fashio</a>
+            <button class="btn fa-solid fa-cart-shopping navbar-toggler"></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav m-auto ml-20%">
+                    <li class="nav-item">
+                        <a class="nav-link" href="men.html">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="women.html">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="children.html">Children</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sale.html">Sale</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn fa fa-search" type="button"></button>
+                </form>
+                <button class="btn hello fa-solid fa-cart-shopping"></button>
+
+            </div>
+        </div>
+    </nav>
+    <div class="row row00 mt-5">
+        <div class="container col-sm-12  cols-md-12 col-lg-6">
+            <div class="logo p-4">
+                <img src="images/dresses/men/1.webp" alt="">
+            </div>
+        </div>
+        <div class="who col-sm-12  col-md-12 col-lg-6 p-2">
+            <h1>Jacquard Kurta</h1>
+            <h3>Rs. 2,100</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia qui excepturi quae perferendis voluptate
+                rerum molestias, odio beatae dignissimos ullam hic voluptatem molestiae optio sed facilis neque
+                doloribus veniam quibusdam nisi minima cupiditate omnis iste atque? Quae at praesentium quidem unde
+                culpa. Iste eum temporibus nulla impedit culpa repudiandae qui deserunt distinctio amet unde quo vel,
+                numquam in ipsam reiciendis ex fuga aut dolor voluptate eveniet iure explicabo doloribus libero? Veniam
+                aliquam quos animi fuga commodi laborum delectus, numquam culpa libero magni tempore rerum voluptatem
+                molestias fugit sapiente itaque repellendus esse aliquid officia in! Quaerat esse beatae magni nisi
+                natus.
+            </p>
+            <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group small me-2" role="group" aria-label="First group">
+                    <button type="button" id="b1" onclick="fun(id)" class="btn btn-outline-secondary">S</button>
+                    <button type="button" id="b2" onclick="fun(id)" class="btn btn-outline-secondary">M</button>
+                    <button type="button" id="b3" onclick="fun(id)" class="btn btn-outline-secondary">L</button>
+                </div>
+            </div>
+            <button type="submit" class="button3">ADD TO CART</button>
+        </div>
+        <div class="des col-sm-12  col-md-12 col-lg-12">
+            <h5>Description</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut dignissimos eius voluptatibus ab iure
+                architecto cumque consequatur magni alias quis, eveniet labore accusantium quibusdam provident quos
+                dolores neque saepe exercitationem! Velit vero voluptatem illo quam quaerat sint. Ullam consequatur unde
+                accusantium praesentium vero ducimus obcaecati? Vero qui fugiat rerum. Enim vel expedita reprehenderit
+                consequatur nisi voluptas error optio nam a reiciendis odio asperiores, aut aliquam nesciunt iste
+                numquam autem ullam eveniet incidunt soluta sunt alias dolore non quaerat? Eos, libero. Rerum facilis,
+                autem aliquid nobis exercitationem nesciunt deserunt debitis at, maxime numquam natus, ex incidunt quasi
+                cum ut id vel.</p>
+        </div>
+        <div class="container p-5">
+            <div class="row row3">
+                <h1 class="text-center pt-5">Related Products</h1>
+                <div class="dress col-6 col-md-4 col-lg-3" onclick="location.href='product.html';">
+                    <div class="items">
+                        <img src="images/dresses/men/1.webp" alt="Jacquard Kurta">
+                    </div>
+                    <p>Jacquard Kurta</p>
+                    <p class="price">Rs. 2,100</p>
+                </div>
+                <div class="dress col-6 col-md-4 col-lg-3" onclick="location.href='product.html';">
+                    <div class="items">
+                        <img src="images/dresses/men/2.webp" alt="Jacquard Kurta">
+                    </div>
+                    <p>Jacquard Kurta</p>
+                    <p class="price">Rs. 3,800</p>
+                </div>
+                <div class="dress col-6 col-md-4 col-lg-3" onclick="location.href='product.html';">
+                    <div class="items">
+                        <img src="images/dresses/men/3.webp" alt="Dobby Kurta">
+                    </div>
+                    <p>Dobby Kurta</p>
+                    <p class="price">Rs. 2,500</p>
+                </div>
+                <div class="dress col-6 col-md-4 col-lg-3" onclick="location.href='product.html';">
+                    <div class="items">
+                        <img src="images/dresses/men/4.webp" alt="Self Jacquard Kurta">
+                    </div>
+                    <p>Self Jacquard Kurta</p>
+                    <p class="price">Rs. 4,200</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row row33">
+        <h4>SALE UP TO 25% OFF FOR ALL CLOTHES & ON ALL CATEGORIES</h4>
+    </div>
+    <div class="row row4">
+        <div class="container col-md-4 col-sm-12">
+            <h1>Fashio</h1>
+            <p>The best look anytime, anywhere</p>
+        </div>
+        <div class="container info col-md-4 col-sm-12">
+            <h3>Information</h3>
+            <a href="about.html">About Us</a><br>
+            <a href="contact.html">Contact Us</a><br>
+            <a href="privacy.html">Privacy Policy</a><br>
+            <a href="refund.html">Refund and Exchange</a>
+        </div>
+        <div class="info col-md-4 col-sm-12">
+            <h3>Subscribe</h3>
+            <form action="#">
+                <div class="mb-3 mt-3">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <button type="submit" class="button2">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col-md-10 col-sm-12 copy">
+            <p>Copyright © 2024 fashio.com. Powered by fashio.com.</p>
+        </div>
+        <div class="SocialMediaIcon col-md-2 col-sm-12">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+
+</body>
+<script>
+    function fun(id) {
+        // Reset all buttons to their default state
+        const buttons = document.querySelectorAll('.btn-group .btn');
+        buttons.forEach(button => {
+            button.style.backgroundColor = ''; // Reset background color
+            button.disabled = false; // Enable all buttons
+        });
+
+        // Set the selected button's style and disable others
+        document.getElementById(id).style.backgroundColor = 'darkred';
+        buttons.forEach(button => {
+            if (button.id !== id) {
+                button.disabled = true; // Disable other buttons
+            }
+        });
+    }
+</script>
+
+</html>
